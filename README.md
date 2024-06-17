@@ -1,5 +1,5 @@
 # pedometer-rust-esp32
-Some time ago, I started running, and my partner gave me a smart watch that allows me to measure my workouts. From the very beginning, I was intrigued by the algorithm for counting steps (pedometer). So, I bought an accelerometer and tried to replicate it, using an ESP32 and an OLED display that I already had.
+Some time ago, I started running and my partner gave me a smart watch that allows me to measure my workouts. From the very beginning, I was intrigued by the algorithm for counting steps (pedometer). So, I bought an accelerometer and tried to replicate it, using an ESP32 and an OLED display that I already had.
 
 In an attempt to replicate the behavior of the watch, this implementation connects to WiFi, updates the time via NTP, and then counts steps by analyzing the accelerometer signal. Then it displays the current time and the steps, cycling between them.
 
@@ -34,4 +34,7 @@ For initiating a new project you do:
 * in my case I should add `ESP_IDF_PATH_ISSUES = 'warn'` into the `env` section of `.cargo\config.toml`
 * also I needed the "CP210x USB to UART Bridge VCP Drivers" from https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads
 
-Remember that you should enable the board flashing by pressing a button on your dev board. I can't provide fourther info because it depends on your board. There are a lot of versions in the wild.
+Remember that you should enable the board flashing by pressing a button on your dev board. I can't provide further details because it depends on your board. There are a lot of versions in the wild.
+
+The flash utility creates an output like this when you do `cargo run`:
+![Flashing ESP32 screenshot](images/flash-esp32.png)
