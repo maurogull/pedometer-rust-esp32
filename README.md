@@ -19,6 +19,7 @@ I only used the information from the X-axis because it's enough. Basically, samp
 ![Sine signal pedometer](images/sine-signal.png)
 
 ## Demo video
+![Youtube demo preview](images/youtube-demo.jpg)
 
 Here you can find a live demonstration:  [Realtime demo - YouTube video](https://youtu.be/qpRlkYwzalA)
 
