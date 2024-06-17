@@ -3,6 +3,12 @@ Some time ago, I started running and my partner gave me a smart watch that allow
 
 In an attempt to replicate the behavior of the watch, this implementation connects to WiFi, updates the time via NTP, and then counts steps by analyzing the accelerometer signal. Then it displays the current time and the steps, cycling between them.
 
+Hardware:
+* SoC is Espressif ESP-WROOM-32 (dev board also called NodeMCU-32s)
+* OLED display is SSD1306
+* Accelerometer is MPU6050
+* Flash used: 1 of 4 MB
+
 ![ESP32 pedometer project](images/pedometer-rust-esp32.jpg)
 
 ## Counting the steps
