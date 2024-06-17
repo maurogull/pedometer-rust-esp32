@@ -10,6 +10,7 @@ Hardware:
 * Flash used: 1 of 4 MB
 
 ![ESP32 pedometer project](images/pedometer-rust-esp32.jpg)
+![ESP32 pedometer protoboard view](images/protoboard.png)
 
 ## Counting the steps
 
